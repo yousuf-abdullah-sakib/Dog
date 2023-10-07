@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.header-area{
+    background-color: black;
+    padding:5px 0;
+}.container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    height: 70%;
+}
+.menu{
+    width: 65%;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.menu ul li{
+    padding: 10px 15px;
+    list-style: none;
+    margin-top: 10px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    color: white;
+    padding: 15px;
+}
+.menu ul li a:hover{
+    background-color: blue;
+    transition: 1s;
+
+}
+
+
+
+
+
+.section-1{
+    background-color:#FFC400;
+    max-height: 400px;
+
+}
+.div-1{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-content{
+    width: 60%;
+    padding: 80px 0;
+
+}
+.inner-content h2{
+    color: white;
+    font-size:50px;
+    margin: 20px 0;
+}
+.inner-content p{
+    color: white;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.inner-content a{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    color: white;
+}
+.inner-content a:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+.inner-image{
+    width: 45%;
+    padding: 70px 0;
+    margin-left: 50px;
+}
+.inner-image img{
+    width: 70%;
+    height: 70%;
+
+}
+
+
+
+
+.section-2{
+    background-color:#FFFFFF;
+    position: relative;
+}
+.survice-area{
+     display: flex;
+     justify-content: space-between;
+     padding: 80px 0;
+}
+.survice-content{
+    width: 60%;
+}
+.survice-image{
+    width: 35%;
+}
+.survice-content h2{
+    color: rgb(107, 94, 94);
+    font-size:50px;
+    margin: 20px 0;
+}
+.survice-content p{
+    color:rgb(107, 94, 94);
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.survice-content button{
+       padding:5px;
+       color: rgb(59, 44, 44);
+       border-radius: 5px;
+       background-color: aquamarine;
+}
+.survice-content button:hover{
+    cursor: pointer;
+    background-color: #FFC400;
+    border: none;
+    color: azure;
+    transition: 1s;
+}
+.box{
+       width: 300px;
+       height:200px;
+       background-color:#FFC400;
+       position: absolute;
+       top: 70px;
+       transform: translate(20px 20px);
+}
+.box img{
+
+}
+
+
+
+
+.section-3{
+    background-color:#FFC400;
+    min-height: 400px;
+
+}
+.title-content{
+}
+.title{
+    text-align: center;
+    padding: 40px 0;
+    align-items: center;
+    color: white;
+
+   
+}
+.title h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+.member-area{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.member{
+    width: 30%;
+    text-align: center;
+    padding: 10px 0;
+
+}
+.member h2{
+    color:whitesmoke ;
+    margin: 20px;
+
+}
+.member p{
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+
+
+.button{
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+}
+
+.bottom-survice{
+}
+
+
+.buy-button{
+    padding: 10px 25px;
+    border-radius:20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 25px;
+
+}
+.buy-button:hover{
+    cursor: pointer;
+    border-color:rgb(222, 17, 17);
+}
+
+.member h2 span{
+    padding: 0 15px;
+}
+
+footer{
+    background-color: black;
+}
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content{
+    color: aliceblue;
+}
+.footer-content h4{
+    margin-top: 15px;
+}
+.footrt-icon ul li{
+    padding: 15px;
+
+}
+.footrt-icon ul li a{
+    color:white;
+}
+.footrt-icon ul{
+    display: flex;
+}
+
+
+
+
+
+
+
